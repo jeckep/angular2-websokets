@@ -31,5 +31,6 @@ export class AppComponent {
         }
       }, {'X-Authorization': that.token});
     });
+    // TODO correctly disconnect
   }
 }
